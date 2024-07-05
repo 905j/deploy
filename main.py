@@ -3,6 +3,7 @@ from forms import RegistrationForm
 from flask_behind_proxy import FlaskBehindProxy
 from flask_debugtoolbar import DebugToolbarExtension
 from flask_sqlalchemy import SQLAlchemy
+import git
 
 app = Flask(__name__)
 proxied = FlaskBehindProxy(app)
